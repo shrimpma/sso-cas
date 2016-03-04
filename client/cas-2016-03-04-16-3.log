@@ -1,0 +1,162 @@
+2016-03-04 16:56:56,586 INFO [org.jasig.cas.CasEnvironmentContextListener] - 
+******************** Welcome to CAS ********************
+CAS Version: 4.1.5
+Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Java Vendor: Oracle Corporation
+Java Version: 1.8.0_65
+OS Architecture: x86_64
+OS Name: Mac OS X
+OS Version: 10.11.3
+*******************************************************
+
+2016-03-04 16:57:00,916 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 16:57:01,707 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-04 16:57:01,711 INFO [org.jasig.cas.CasEnvironmentContextListener] - [Apache Tomcat/8.0.30] has loaded the CAS application context
+2016-03-04 16:57:20,825 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for warn cookie generator to: /cas/ 
+2016-03-04 16:57:20,825 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for warn cookie generator to: /cas/ 
+2016-03-04 16:57:20,831 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for TGC cookie generator to: /cas/ 
+2016-03-04 16:57:20,831 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for TGC cookie generator to: /cas/ 
+2016-03-04 16:57:20,853 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 16:57:20,853 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 16:57:21,123 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-03-04 16:57:21,131 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 expired tickets found to be removed.
+2016-03-04 16:57:21,131 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-03-04 16:57:31,318 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 16:57:31,318 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 16:58:19,897 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 16:58:19,897 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 16:58:37,178 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/] is not found in service registry.
+2016-03-04 16:58:37,178 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/] is not found in service registry.
+2016-03-04 16:58:39,724 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/] is not found in service registry.
+2016-03-04 16:58:39,724 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/] is not found in service registry.
+2016-03-04 16:59:01,122 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 16:59:01,127 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 16:59:11,724 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated mayongtao
+2016-03-04 16:59:11,727 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated mayongtao with credentials [mayongtao].
+2016-03-04 16:59:11,734 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: supplied credentials: [mayongtao]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:11 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:11,734 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: supplied credentials: [mayongtao]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:11 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:11,739 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: TGT-**********************************************wsqOPwKrBi-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:11 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:11,739 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: TGT-**********************************************wsqOPwKrBi-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:11 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:11,920 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted ticket [ST-1-wckd0LU5YSHd4fLUsU1s-cas01.example.org] for service [http://www.apereo.org] for user [mayongtao]
+2016-03-04 16:59:11,922 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: ST-1-wckd0LU5YSHd4fLUsU1s-cas01.example.org for http://www.apereo.org
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:11 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:11,922 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: ST-1-wckd0LU5YSHd4fLUsU1s-cas01.example.org for http://www.apereo.org
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:11 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:11,958 WARN [org.jasig.cas.CentralAuthenticationServiceImpl] - ServiceManagement: Unauthorized Service Access. Service [http://www.client.org/] is not found in service registry.
+2016-03-04 16:59:11,959 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: ST-1-wckd0LU5YSHd4fLUsU1s-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATE_FAILED
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:11 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:11,959 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: ST-1-wckd0LU5YSHd4fLUsU1s-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATE_FAILED
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:11 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:12,204 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/favicon.ico] is not found in service registry.
+2016-03-04 16:59:12,204 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/favicon.ico] is not found in service registry.
+2016-03-04 16:59:15,754 WARN [org.jasig.cas.CentralAuthenticationServiceImpl] - ServiceManagement: Unauthorized Service Access. Service [http://www.client.org/] is not found in service registry.
+2016-03-04 16:59:15,754 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: ST-1-wckd0LU5YSHd4fLUsU1s-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATE_FAILED
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:15 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:15,754 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: ST-1-wckd0LU5YSHd4fLUsU1s-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATE_FAILED
+APPLICATION: CAS
+WHEN: Fri Mar 04 16:59:15 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 16:59:15,908 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/favicon.ico] is not found in service registry.
+2016-03-04 16:59:15,908 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/favicon.ico] is not found in service registry.

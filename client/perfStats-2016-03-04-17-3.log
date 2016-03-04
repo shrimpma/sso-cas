@@ -1,0 +1,146 @@
+type=GAUGE, name=jvm.fd.usage, value=0.0087890625
+type=GAUGE, name=jvm.gc.PS-MarkSweep.count, value=2
+type=GAUGE, name=jvm.gc.PS-MarkSweep.time, value=201
+type=GAUGE, name=jvm.gc.PS-Scavenge.count, value=12
+type=GAUGE, name=jvm.gc.PS-Scavenge.time, value=253
+type=GAUGE, name=jvm.memory.heap.committed, value=722993152
+type=GAUGE, name=jvm.memory.heap.init, value=134217728
+type=GAUGE, name=jvm.memory.heap.max, value=1908932608
+type=GAUGE, name=jvm.memory.heap.usage, value=0.08841434385513938
+type=GAUGE, name=jvm.memory.heap.used, value=168777024
+type=GAUGE, name=jvm.memory.non-heap.committed, value=72704000
+type=GAUGE, name=jvm.memory.non-heap.init, value=2555904
+type=GAUGE, name=jvm.memory.non-heap.max, value=-1
+type=GAUGE, name=jvm.memory.non-heap.usage, value=-7.022448E7
+type=GAUGE, name=jvm.memory.non-heap.used, value=70224544
+type=GAUGE, name=jvm.memory.pools.Code-Cache.committed, value=18350080
+type=GAUGE, name=jvm.memory.pools.Code-Cache.init, value=2555904
+type=GAUGE, name=jvm.memory.pools.Code-Cache.max, value=251658240
+type=GAUGE, name=jvm.memory.pools.Code-Cache.usage, value=0.06928812662760417
+type=GAUGE, name=jvm.memory.pools.Code-Cache.used, value=17436928
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.committed, value=6078464
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.init, value=0
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.max, value=1073741824
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.usage, value=0.005330242216587067
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.used, value=5723304
+type=GAUGE, name=jvm.memory.pools.Metaspace.committed, value=48275456
+type=GAUGE, name=jvm.memory.pools.Metaspace.init, value=0
+type=GAUGE, name=jvm.memory.pools.Metaspace.max, value=-1
+type=GAUGE, name=jvm.memory.pools.Metaspace.usage, value=0.9749190976052096
+type=GAUGE, name=jvm.memory.pools.Metaspace.used, value=47064664
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.committed, value=547356672
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.init, value=34078720
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.max, value=639631360
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.usage, value=0.11531509649558146
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.used, value=73759152
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.committed, value=143654912
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.init, value=89653248
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.max, value=1431830528
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.usage, value=0.044262679668190454
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.used, value=63376656
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.committed, value=31981568
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.init, value=5242880
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.max, value=31981568
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.usage, value=0.9893578701331968
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.used, value=31641216
+type=GAUGE, name=jvm.memory.total.committed, value=795697152
+type=GAUGE, name=jvm.memory.total.init, value=136773632
+type=GAUGE, name=jvm.memory.total.max, value=1908932607
+type=GAUGE, name=jvm.memory.total.used, value=239034480
+type=GAUGE, name=jvm.thread-states.blocked.count, value=0
+type=GAUGE, name=jvm.thread-states.count, value=31
+type=GAUGE, name=jvm.thread-states.daemon.count, value=19
+type=GAUGE, name=jvm.thread-states.deadlock.count, value=0
+type=GAUGE, name=jvm.thread-states.deadlocks, value=[]
+type=GAUGE, name=jvm.thread-states.new.count, value=0
+type=GAUGE, name=jvm.thread-states.runnable.count, value=11
+type=GAUGE, name=jvm.thread-states.terminated.count, value=0
+type=GAUGE, name=jvm.thread-states.timed_waiting.count, value=16
+type=GAUGE, name=jvm.thread-states.waiting.count, value=4
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.CREATE_TICKET_GRANTING_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.DESTROY_TICKET_GRANTING_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GET_TICKETS_METER, count=1, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GET_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GRANT_PROXY_GRANTING_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GRANT_SERVICE_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.VALIDATE_SERVICE_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.CREATE_TICKET_GRANTING_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.DESTROY_TICKET_GRANTING_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GET_TICKETS_TIMER, count=1, min=0.242085, max=0.242085, mean=0.242085, stddev=0.0, median=0.242085, p75=0.242085, p95=0.242085, p98=0.242085, p99=0.242085, p999=0.242085, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GET_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GRANT_PROXY_GRANTING_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GRANT_SERVICE_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.VALIDATE_SERVICE_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=GAUGE, name=jvm.fd.usage, value=0.00888671875
+type=GAUGE, name=jvm.gc.PS-MarkSweep.count, value=2
+type=GAUGE, name=jvm.gc.PS-MarkSweep.time, value=201
+type=GAUGE, name=jvm.gc.PS-Scavenge.count, value=12
+type=GAUGE, name=jvm.gc.PS-Scavenge.time, value=253
+type=GAUGE, name=jvm.memory.heap.committed, value=722993152
+type=GAUGE, name=jvm.memory.heap.init, value=134217728
+type=GAUGE, name=jvm.memory.heap.max, value=1908932608
+type=GAUGE, name=jvm.memory.heap.usage, value=0.08956133458222114
+type=GAUGE, name=jvm.memory.heap.used, value=170966552
+type=GAUGE, name=jvm.memory.non-heap.committed, value=72966144
+type=GAUGE, name=jvm.memory.non-heap.init, value=2555904
+type=GAUGE, name=jvm.memory.non-heap.max, value=-1
+type=GAUGE, name=jvm.memory.non-heap.usage, value=-7.0386216E7
+type=GAUGE, name=jvm.memory.non-heap.used, value=70386216
+type=GAUGE, name=jvm.memory.pools.Code-Cache.committed, value=18350080
+type=GAUGE, name=jvm.memory.pools.Code-Cache.init, value=2555904
+type=GAUGE, name=jvm.memory.pools.Code-Cache.max, value=251658240
+type=GAUGE, name=jvm.memory.pools.Code-Cache.usage, value=0.0697466532389323
+type=GAUGE, name=jvm.memory.pools.Code-Cache.used, value=17552320
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.committed, value=6078464
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.init, value=0
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.max, value=1073741824
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.usage, value=0.005332387983798981
+type=GAUGE, name=jvm.memory.pools.Compressed-Class-Space.used, value=5725608
+type=GAUGE, name=jvm.memory.pools.Metaspace.committed, value=48537600
+type=GAUGE, name=jvm.memory.pools.Metaspace.init, value=0
+type=GAUGE, name=jvm.memory.pools.Metaspace.max, value=-1
+type=GAUGE, name=jvm.memory.pools.Metaspace.usage, value=0.9705692906118143
+type=GAUGE, name=jvm.memory.pools.Metaspace.used, value=47109520
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.committed, value=547356672
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.init, value=34078720
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.max, value=639631360
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.usage, value=0.11873820570648694
+type=GAUGE, name=jvm.memory.pools.PS-Eden-Space.used, value=75948680
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.committed, value=143654912
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.init, value=89653248
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.max, value=1431830528
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.usage, value=0.044262679668190454
+type=GAUGE, name=jvm.memory.pools.PS-Old-Gen.used, value=63376656
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.committed, value=31981568
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.init, value=5242880
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.max, value=31981568
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.usage, value=0.9893578701331968
+type=GAUGE, name=jvm.memory.pools.PS-Survivor-Space.used, value=31641216
+type=GAUGE, name=jvm.memory.total.committed, value=795959296
+type=GAUGE, name=jvm.memory.total.init, value=136773632
+type=GAUGE, name=jvm.memory.total.max, value=1908932607
+type=GAUGE, name=jvm.memory.total.used, value=241285328
+type=GAUGE, name=jvm.thread-states.blocked.count, value=0
+type=GAUGE, name=jvm.thread-states.count, value=32
+type=GAUGE, name=jvm.thread-states.daemon.count, value=20
+type=GAUGE, name=jvm.thread-states.deadlock.count, value=0
+type=GAUGE, name=jvm.thread-states.deadlocks, value=[]
+type=GAUGE, name=jvm.thread-states.new.count, value=0
+type=GAUGE, name=jvm.thread-states.runnable.count, value=11
+type=GAUGE, name=jvm.thread-states.terminated.count, value=0
+type=GAUGE, name=jvm.thread-states.timed_waiting.count, value=16
+type=GAUGE, name=jvm.thread-states.waiting.count, value=5
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.CREATE_TICKET_GRANTING_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.DESTROY_TICKET_GRANTING_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GET_TICKETS_METER, count=1, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GET_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GRANT_PROXY_GRANTING_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GRANT_SERVICE_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=METER, name=org.jasig.cas.CentralAuthenticationServiceImpl.VALIDATE_SERVICE_TICKET_METER, count=0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.CREATE_TICKET_GRANTING_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.DESTROY_TICKET_GRANTING_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GET_TICKETS_TIMER, count=1, min=0.242085, max=0.242085, mean=0.242085, stddev=0.0, median=0.242085, p75=0.242085, p95=0.242085, p98=0.242085, p99=0.242085, p999=0.242085, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GET_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GRANT_PROXY_GRANTING_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.GRANT_SERVICE_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds
+type=TIMER, name=org.jasig.cas.CentralAuthenticationServiceImpl.VALIDATE_SERVICE_TICKET_TIMER, count=0, min=0.0, max=0.0, mean=0.0, stddev=0.0, median=0.0, p75=0.0, p95=0.0, p98=0.0, p99=0.0, p999=0.0, mean_rate=0.0, m1=0.0, m5=0.0, m15=0.0, rate_unit=events/millisecond, duration_unit=milliseconds

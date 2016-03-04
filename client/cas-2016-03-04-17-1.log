@@ -1,0 +1,56 @@
+2016-03-04 17:00:31,400 WARN [org.jasig.cas.CentralAuthenticationServiceImpl] - ServiceManagement: Unauthorized Service Access. Service [http://www.client.org/] is not found in service registry.
+2016-03-04 17:00:31,404 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: ST-1-wckd0LU5YSHd4fLUsU1s-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATE_FAILED
+APPLICATION: CAS
+WHEN: Fri Mar 04 17:00:31 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 17:00:31,404 INFO [org.jasig.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: mayongtao
+WHAT: ST-1-wckd0LU5YSHd4fLUsU1s-cas01.example.org
+ACTION: SERVICE_TICKET_VALIDATE_FAILED
+APPLICATION: CAS
+WHEN: Fri Mar 04 17:00:31 CST 2016
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2016-03-04 17:00:31,658 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/favicon.ico] is not found in service registry.
+2016-03-04 17:00:31,658 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/favicon.ico] is not found in service registry.
+2016-03-04 17:01:01,123 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:01:01,126 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 17:03:01,123 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:03:01,129 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 17:05:01,122 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:05:01,131 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 17:07:01,119 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:07:01,123 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 17:07:13,747 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/] is not found in service registry.
+2016-03-04 17:07:13,747 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.org/] is not found in service registry.
+2016-03-04 17:07:59,996 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 17:07:59,996 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 17:08:15,187 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com] is not found in service registry.
+2016-03-04 17:08:15,187 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com] is not found in service registry.
+2016-03-04 17:08:18,525 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com] is not found in service registry.
+2016-03-04 17:08:18,525 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com] is not found in service registry.
+2016-03-04 17:08:30,310 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com] is not found in service registry.
+2016-03-04 17:08:30,310 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com] is not found in service registry.
+2016-03-04 17:08:36,419 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 17:08:36,419 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 17:08:52,700 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 17:08:52,700 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.apereo.org/] is not found in service registry.
+2016-03-04 17:09:01,122 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:09:01,126 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 17:10:00,720 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:10:00,727 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 3 services.
+2016-03-04 17:10:00,728 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:10:00,729 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 3 services.
+2016-03-04 17:10:18,322 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Shutting down Quartz Scheduler

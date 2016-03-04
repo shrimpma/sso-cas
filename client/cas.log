@@ -1,0 +1,15 @@
+2016-03-04 18:14:14,919 INFO [org.jasig.cas.CasEnvironmentContextListener] - 
+******************** Welcome to CAS ********************
+CAS Version: 4.1.5
+Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Java Vendor: Oracle Corporation
+Java Version: 1.8.0_65
+OS Architecture: x86_64
+OS Name: Mac OS X
+OS Version: 10.11.3
+*******************************************************
+
+2016-03-04 18:14:19,313 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 18:14:19,948 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-04 18:14:19,951 INFO [org.jasig.cas.CasEnvironmentContextListener] - [Apache Tomcat/8.0.30] has loaded the CAS application context
+2016-03-04 18:14:21,744 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Shutting down Quartz Scheduler

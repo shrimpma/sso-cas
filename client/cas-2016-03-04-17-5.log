@@ -1,0 +1,39 @@
+2016-03-04 17:28:58,311 INFO [org.jasig.cas.CasEnvironmentContextListener] - 
+******************** Welcome to CAS ********************
+CAS Version: 4.1.5
+Java Home: /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+Java Vendor: Oracle Corporation
+Java Version: 1.8.0_65
+OS Architecture: x86_64
+OS Name: Mac OS X
+OS Version: 10.11.3
+*******************************************************
+
+2016-03-04 17:29:02,489 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 17:29:03,306 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2016-03-04 17:29:03,310 INFO [org.jasig.cas.CasEnvironmentContextListener] - [Apache Tomcat/8.0.30] has loaded the CAS application context
+2016-03-04 17:29:05,642 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for warn cookie generator to: /cas/ 
+2016-03-04 17:29:05,642 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for warn cookie generator to: /cas/ 
+2016-03-04 17:29:05,646 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for TGC cookie generator to: /cas/ 
+2016-03-04 17:29:05,646 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies for TGC cookie generator to: /cas/ 
+2016-03-04 17:29:05,669 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:29:05,669 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:29:22,657 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2016-03-04 17:29:22,662 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 expired tickets found to be removed.
+2016-03-04 17:29:22,662 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2016-03-04 17:30:31,213 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:30:31,213 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:30:37,334 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:30:37,334 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:30:43,649 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:30:43,649 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:30:46,768 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:30:46,768 WARN [org.jasig.cas.web.flow.ServiceAuthorizationCheck] - Service Management: Unauthorized Service Access. Service [http://www.client.com/] is not found in service registry.
+2016-03-04 17:31:02,665 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:31:02,667 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 17:31:12,298 WARN [org.jasig.cas.services.JsonServiceRegistryConfigWatcher] - Found a service definition [^http://www.client.com] with a duplicate id [10000002] in [/usr/local/Cellar/tomcat/8.0.30/libexec/webapps/cas/WEB-INF/classes/services/Client-10000002.json]. This will overwrite previous service definitions and is likely a configuration problem. Make sure all services have a unique id and try again.
+2016-03-04 17:31:12,300 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:31:12,302 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 17:31:12,303 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2016-03-04 17:31:12,305 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 2 services.
+2016-03-04 17:31:22,577 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Shutting down Quartz Scheduler
